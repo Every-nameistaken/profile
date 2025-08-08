@@ -10,6 +10,7 @@ export default function Home() {
       <div>
         <h1 className="text-center text-4xl py-4 font-semibold font-serif bg-gradient-to-br from-purple-700 to-gray-400 bg-clip-text text-transparent">Welcome to my blog</h1>
       </div>
+      
       <Footer />
       
     </div>
