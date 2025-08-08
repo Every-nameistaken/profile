@@ -9,7 +9,7 @@ const Header = () => {
     return (
         <header style={{ padding: "1rem", background: "#f5f5f5" }}>
             <nav style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
-                <div className="font-semibold font-serif text-3xl text-indigo-600 decoration-1 hover:decoration-2 transition-all underline" style={{ fontWeight: "bold" }}>LOGO</div>
+                <div className="font-semibold font-serif text-3xl text-indigo-600 decoration-1 hover:decoration-2 transition-all underline" style={{ fontWeight: "bold" }}><a href="/">LOGO</a></div>
                 <div className="p-5">
                     <ul className="flex space-x-6 font-serif ">
                         <li className="hover:underline text-gray-700 hover:text-gray-500"><a href="/">Home</a></li>

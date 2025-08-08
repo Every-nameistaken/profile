@@ -6,7 +6,7 @@ export default function ContactPage() {
         <div className=" mx-auto ">
             <Header />
            <div className="p-5 ">
-                 <h1 className="text-3xl font-bold mb-6 text-center">Contact John Doe</h1>
+                 <h1 className="text-3xl font-bold mb-6 text-center">Contact Dada</h1>
             <div className="flex sm:align-middle flex-wrap gap-8">
                 {/* Google Map */}
                 <div className="flex-1 min-w-[300px]">
