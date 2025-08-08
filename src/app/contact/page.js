@@ -6,66 +6,23 @@ export default function ContactPage() {
         <div className=" mx-auto ">
             <Header />
            <div className="p-5 ">
-                 <h1 className="text-3xl font-bold mb-6 text-center">Contact Dada</h1>
-            <div className="flex sm:align-middle flex-wrap gap-8">
+                 <h1 className="text-4xl font-bold mb-6 text-center bg-gradient-to-br from-blue-800 to-gray-400 bg-clip-text text-transparent ">Contact Us:</h1>
+            <div>
                 {/* Google Map */}
                 <div className="flex-1 min-w-[300px]">
-                    <iframe
-                        title="Google Map"
-                        src="https://www.google.com/maps?q=1600+Amphitheatre+Parkway,+Mountain+View,+CA&output=embed"
-                        width="100%"
-                        height="300"
-                        className="rounded shadow"
-                        allowFullScreen=""
-                        loading="lazy"
-                        referrerPolicy="no-referrer-when-downgrade"
-                    ></iframe>
-                    <div className="mt-4">
-                        <p className="font-semibold">Address:</p>
-                        <p>1600 Amphitheatre Parkway, Mountain View, CA</p>
-                        <p className="font-semibold mt-2">Phone:</p>
-                        <p>(123) 456-7890</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423286.8830297217!2d-118.74138205907403!3d34.02003919141475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20Angeles%2C%20CA!5e0!3m2!1sen!2sus!4v1754680039781!5m2!1sen!2sus" width="100%" height="450" style={{border:0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+
+
+                    <div className="my-15">
+                        <p className="font-semibold text-lg text-gray-700">Address:</p>
+                        <p className="font-serif">1600 Amphitheatre Parkway, Mountain View, CA</p>
+                        <p className="font-semibold my-2 text-gray-700">Email:</p>
+                        <p className="mb-5 font-serif">aaronrichee12@outlook.com</p>
+                        
                     </div>
                 </div>
                 {/* Contact Form */}
-                <form className="flex-1 min-w-[300px] bg-white rounded shadow p-6 space-y-4">
-                    <div>
-                        <label className="block font-medium mb-1" htmlFor="name">Name</label>
-                        <input
-                            className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring focus:border-blue-400"
-                            type="text"
-                            id="name"
-                            name="name"
-                            required
-                        />
-                    </div>
-                    <div>
-                        <label className="block font-medium mb-1" htmlFor="email">Email</label>
-                        <input
-                            className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring focus:border-blue-400"
-                            type="email"
-                            id="email"
-                            name="email"
-                            required
-                        />
-                    </div>
-                    <div>
-                        <label className="block font-medium mb-1" htmlFor="message">Message</label>
-                        <textarea
-                            className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring focus:border-blue-400"
-                            id="message"
-                            name="message"
-                            rows="4"
-                            required
-                        ></textarea>
-                    </div>
-                    <button
-                        type="submit"
-                        className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition"
-                    >
-                        Send
-                    </button>
-                </form>
+                
             </div>
             </div>
             <Footer />

@@ -10,7 +10,13 @@ export default function Home() {
       <div>
         <h1 className="text-center text-4xl py-4 font-semibold font-serif bg-gradient-to-br from-purple-700 to-gray-400 bg-clip-text text-transparent">Welcome to my blog</h1>
       </div>
-      
+      <div>
+        <h1 className="text-center text-3xl font-sans text-gray-600">I am Duncan, check out my youtube channel at 
+          
+        </h1>
+        <h1 className="text-center text-3xl font-sans py-5 animate-pulse hover:underline  decoration-3 text-gray-600" > <a  href="https://www.youtube.com/@LAISSHOW" target="_blank">LifeAsItIs!</a></h1>
+      </div>
+
       <Footer />
       
     </div>
