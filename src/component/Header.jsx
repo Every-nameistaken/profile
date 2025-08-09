@@ -1,4 +1,6 @@
 "use client"
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 import React, { useState } from "react";
 import { FaBarsStaggered } from "react-icons/fa6";
 
@@ -7,42 +9,44 @@ const Header = () => {
 
     const handleDropdown = () => setDropdownOpen(!dropdownOpen);
 
+    const pathname = usePathname();
+    const isActive = (path) => pathname === path ? "underline decoration-2" : "";
+
     return (
-        <header className="bg-gray-200" style={{ padding: "1rem" }}>
-            <nav style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
-                <div className="font-semibold font-serif text-3xl text-indigo-600 decoration-1 hover:decoration-2 transition-all underline" style={{ fontWeight: "bold" }}><a href="/">LifeAsItIs</a></div>
-                <div className="p-5">
+        <header className="bg-gray-200 fixed left-0 top-0 right-0 z-50 my-auto" style={{ padding: "1rem"}}>
+            <nav className="" style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
+                <div className="font-semibold font-serif text-3xl text-gray-800 decoration-1 hover:decoration-2 transition-all underline"><Link href="/">LifeAsItIs</Link></div>
+                <div className="p-2">
                     <ul className="sm:flex hidden space-x-6 font-serif ">
-                        <li className="hover:underline text-gray-700 hover:text-gray-500"><a href="/">Home</a></li>
-                        <li className="hover:underline text-gray-700 hover:text-gray-500"><a href="/about">About</a></li>
-                        <li className="hover:underline text-gray-700 hover:text-gray-500"><a href="/contact">Contact</a></li>
+                        <li className="hover:underline text-gray-700 hover:text-gray-500"><Link  href="/" className={isActive("/")}>Home</Link></li>
+                        <li className="hover:underline text-gray-700 hover:text-gray-500"><Link href="/about" className={isActive("/about")}  >About</Link></li>
+                        <li className="hover:underline text-gray-700 hover:text-gray-500"><Link href="/contact" className={isActive("/contact")} >Contact</Link></li>
                     </ul>
                 </div>
-                <div className="sm:hidden block" style={{ position: "relative" }}>
+                <div className="sm:hidden block " style={{ position: "relative" }}>
                     <button onClick={handleDropdown} style={{ padding: "0.5rem 1rem" }}>
-                        <FaBarsStaggered className="text-xl"/>
+                        <FaBarsStaggered className="text-xl dark:text-gray-800 text-gray-800"/>
                     </button>
-                    {dropdownOpen && (
+                     {dropdownOpen && (
                         <ul
-                        className="p-4 space-y-3"
+                        className="p-4 space-y-3 w-screen bg-gray-200"
                             style={{
-                                position: "absolute",
-                                top: "2.5rem",
+                                position: "fixed",
+                                top: "4.3rem",
                                 right: 0,
-                                background: "#fff",
-                                boxShadow: "0 2px 8px rgba(0,0,0,0.1)",
+                                left: 0,
                                 listStyle: "none",
                                 margin: 0,
-                                minWidth: "120px",
-                                zIndex: 1000,
+                                zIndex: 21,
                             }}
                         >
-                             <li className="hover:underline text-gray-700 hover:text-gray-500"><a href="/">Home</a></li>
-                        <li className="hover:underline text-gray-700 hover:text-gray-500"><a href="/about">About</a></li>
-                        <li className="hover:underline text-gray-700 hover:text-gray-500"><a href="/contact">Contact</a></li>
+                             <li className="hover:underline text-gray-700  hover:text-gray-500"><Link href="/" className={isActive("/")+`w-12/12 block  `} >Home</Link></li>
+                        <li className="hover:underline text-gray-700 hover:text-gray-500"><Link href="/about" className={isActive("/about"+`w-12/12 block  `)} >About</Link></li>
+                        <li className="hover:underline text-gray-700 hover:text-gray-500"><Link href="/contact" className={isActive("/contact")+`w-12/12 block  `} >Contact</Link></li>
                         </ul>
                     )}
                 </div>
+               
             </nav>
         </header>
     );

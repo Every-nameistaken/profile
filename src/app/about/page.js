@@ -1,12 +1,13 @@
 import Footer from "@/component/Footer";
 import Header from "@/component/Header";
+import Subscribe from "@/component/Subscribe";
 
 export default function About() {
   return (
     <div>
       <Header />
       
-      <div className="sm:flex block p-6">
+      <div className="sm:flex block px-6 py-20">
             <div className="">
                 <img className=" rounded-sm" src="/aboutImg.png"/>
             </div>
@@ -37,19 +38,11 @@ export default function About() {
                  If you believe in the power of vulnerability, connection, and truth — you’re in the right place.
             Hit subscribe and join a growing community that finds meaning in life as it is.
             </p>
+
+            <Subscribe />
             </div>
 
-      </div>
-      
-           
-
-           
-
-           
-
-            
-
-           
+      </div>           
       <Footer />
     </div>
   );
