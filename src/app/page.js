@@ -12,7 +12,7 @@ export default function Home() {
         <h1 className="text-center text-4xl py-4 font-semibold font-serif bg-gradient-to-br from-purple-700 to-gray-400 bg-clip-text text-transparent">Welcome to my blog</h1>
       </div> */}
       <div className="dark:bg-white">
-        <h1 className="text-center text-4xl py-4 font-semibold font-serif bg-gradient-to-br from-gray-700 to-gray-400 bg-clip-text text-transparent">Welcome to my blog</h1>
+        <h1 className="text-center text-4xl pb-4 pt-20 font-semibold font-serif bg-gradient-to-br from-gray-700 to-gray-400 bg-clip-text text-transparent"></h1>
         <h1 className="text-center text-3xl font-sans text-gray-600">I am Duncan, check out my youtube channel at 
           
         </h1>
