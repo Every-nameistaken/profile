@@ -7,7 +7,7 @@ export default function About() {
     <div>
       <Header />
       
-      <div className="sm:flex block px-6 py-20">
+      <div className="sm:flex block px-6 py-20 dark:bg-white">
             <div className="">
                 <img className=" rounded-sm" src="/aboutImg.png"/>
             </div>

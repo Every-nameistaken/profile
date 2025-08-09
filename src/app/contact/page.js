@@ -5,7 +5,7 @@ export default function ContactPage() {
     return (
         <div className=" mx-auto ">
             <Header />
-           <div className="p-5 ">
+           <div className="p-5 dark:bg-white">
                  <h1 className="text-4xl font-bold mt-16 mb-6 text-center bg-gradient-to-br from-gray-800 to-gray-400 bg-clip-text text-transparent ">Contact Us:</h1>
             <div>
                 {/* Google Map */}
