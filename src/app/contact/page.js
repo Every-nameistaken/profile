@@ -13,7 +13,7 @@ export default function ContactPage() {
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423286.8830297217!2d-118.74138205907403!3d34.02003919141475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20Angeles%2C%20CA!5e0!3m2!1sen!2sus!4v1754680039781!5m2!1sen!2sus" width="100%" height="350" style={{border:0}} allowFullScreen="" loading="lazy" className="rounded-md" referrerPolicy="no-referrer-when-downgrade"></iframe>
 
 
-                    <div className="my-15 pb-20">
+                    <div className="my-15 pb-36">
                         <p className="font-semibold text-lg text-gray-700">Address:</p>
                         <p className="font-serif text-gray-600">1600 Amphitheatre Parkway, Mountain View, CA</p>
                         <p className="font-semibold my-2 text-gray-700">Email:</p>
