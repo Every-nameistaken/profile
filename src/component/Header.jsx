@@ -41,8 +41,8 @@ const Header = () => {
                             }}
                         >
                              <li className="hover:underline text-gray-700  hover:text-gray-500"><Link href="/" className={isActive("/")+`w-12/12 block  `} >Home</Link></li>
-                        <li className="hover:underline text-gray-700 hover:text-gray-500"><Link href="/about" className={isActive("/about"+`w-12/12 block  `)} >About</Link></li>
-                        <li className="hover:underline text-gray-700 hover:text-gray-500"><Link href="/contact" className={isActive("/contact")+`w-12/12 block  `} >Contact</Link></li>
+                        <li className="hover:underline text-gray-700 hover:text-gray-500"><Link href="/about" className={isActive("/about")+`w-12/12 block`} >About</Link></li>
+                        <li className="hover:underline text-gray-700 hover:text-gray-500"><Link href="/contact" className={isActive("/contact")+`w-12/12 block `} >Contact</Link></li>
                         </ul>
                     )}
                 </div>

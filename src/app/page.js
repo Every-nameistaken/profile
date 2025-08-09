@@ -18,7 +18,7 @@ export default function Home() {
         </h1>
         <h1 className="text-center text-3xl font-sans py-5 animate-pulse hover:underline  decoration-3 text-gray-600" > <a  href="https://www.youtube.com/@LAISSHOW" target="_blank">LifeAsItIs!</a></h1>
 
-        <div className="text-center pb-96">
+        <div className="text-center pb-[700px]">
         <Subscribe />
         </div>
 
