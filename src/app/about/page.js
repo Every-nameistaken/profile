@@ -9,35 +9,85 @@ export default function About() {
       
       <div className="sm:flex block px-6 pt-20 pb-28 dark:bg-white">
             <div className="">
-                <img className=" rounded-sm" src="/aboutImg.png"/>
+                <img className=" rounded-sm" src={"/me.jpg"}/>
             </div>
             
             <div>
-            <p className="text-justify pt-3 sm:pt-0  sm:px-6 text-gray-700 ">Welcome to Life As It Is — a channel dedicated to real, raw, and emotional stories that reflect the true human experience.
-            Here, we share heart-touching narratives of love, loss, hope, resilience, and redemption — told by real people, just like you.
-            </p>
-            <p className="text-justify  text-gray-700 sm:px-6 py-6">
-            Whether it’s a story of silent strength, a moment of unexpected kindness, or a struggle that shaped a soul, every video on this channel is crafted to move hearts and inspire minds.
-            </p>
-            <p className="text-justify sm:px-6 text-gray-700 py-6">
-            🧡 Why Subscribe?
-            </p>
-            <p className="text-justify sm:px-6 text-gray-700 ">
-            🧡  Authentic real-life stories
-            </p>
-            <p className="text-justify sm:px-6 text-gray-700 ">
-            🧡   Emotional, cinematic storytelling
-            </p>
-            <p className="text-justify sm:px-6 text-gray-700 ">
-            🧡   Uplifting messages of hope and healing
-            </p>
-            <p className="text-justify sm:px-6 text-gray-700 ">
-            🧡  New episodes every week
-            </p>
-            <p className="text-justify sm:p-6 mb-10 text-gray-700 py-6">
-                 If you believe in the power of vulnerability, connection, and truth — you’re in the right place.
-            Hit subscribe and join a growing community that finds meaning in life as it is.
-            </p>
+            <p className="text-justify pt-3 sm:pt-0 sm:px-6 text-gray-700">
+  I’m <span className="font-bold">Dada Ayokunle Samuel</span>, a Fullstack Developer passionate about
+  building functional, accessible, and visually appealing web
+  applications. I enjoy turning ideas into real-world digital
+  experiences using modern web technologies.
+</p>
+
+<p className="text-justify text-gray-700 sm:px-6 py-6">
+  My core stack includes React.js, Next.js, Laravel, ASP.NET Core Web API,
+  Tailwind CSS, and Entity Framework. I enjoy working across both
+  frontend and backend to build responsive interfaces, scalable APIs,
+  and real-time applications and consuming the APIs in a frontend framework.
+</p>
+
+<p className="text-justify sm:px-6 text-gray-700 py-6">
+  Technical Skills
+</p>
+
+<p className="text-justify sm:px-6 text-gray-700">
+  Languages: JavaScript, C#, PHP, TypeScript, HTML, CSS
+</p>
+
+<p className="text-justify sm:px-6 text-gray-700">
+  <br />
+
+  Frameworks:
+  <br />
+
+  <br /> 
+  ✅React.js, 
+  <br />
+  ✅Next.js, 
+  <br />
+
+  ✅Laravel, 
+  <br />
+
+  ✅Inertia.js, 
+  <br />
+
+  ✅Tailwind CSS, 
+  <br />
+
+  ✅Bootstrap,
+  <br />
+
+  ✅ASP.NET Core Web API, 
+  <br />
+
+  ✅Entity Framework,
+  <br />
+
+  ✅SignalR.
+  <br />
+  <br />
+
+</p>
+
+<p className="text-justify sm:px-6 text-gray-700">
+  Tools: Git, Figma, Chrome DevTools, NPM, Postman, OpenApi, Swagger, Visual Studio Code, Visual Studio.
+</p>
+
+<p className="text-justify sm:px-6 text-gray-700">
+  Development: REST APIs, Responsive Web Design, Performance
+  Optimization, Accessibility, UX/UI Principles, Cross-Browser
+  Compatibility, Testing, and Real-time applications with Laravel Reverb
+</p>
+
+<p className="text-justify sm:p-6 mb-10 text-gray-700 py-6">
+  I have experience working as a Web Developer at ShipPack and as a
+  Tech Tutor at Classic Systems Infotech Ltd (affiliated with FUTA),
+  where I taught web development, product design, and data processing.
+  I hold a B.Sc in Physiology from Ekiti State University and a Diploma
+  in Fullstack Web Development.
+</p>
 
             <Subscribe />
             </div>

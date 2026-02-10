@@ -15,7 +15,7 @@ const Header = () => {
     return (
         <header className="bg-gray-200 fixed left-0 top-0 right-0 z-50 my-auto" style={{ padding: "1rem"}}>
             <nav className="" style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
-                <div className="font-semibold font-serif text-3xl text-gray-800 decoration-1 hover:decoration-2 transition-all underline"><Link href="/">LifeAsItIs</Link></div>
+                <div className="font-semibold font-serif text-3xl text-gray-800 decoration-1 hover:decoration-2 transition-all underline"><Link href="/"> AyDev </Link></div>
                 <div className="p-2">
                     <ul className="sm:flex hidden space-x-6 font-serif ">
                         <li className="hover:underline text-gray-700 hover:text-gray-500"><Link  href="/" className={isActive("/")}>Home</Link></li>
