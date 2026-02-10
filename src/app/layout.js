@@ -12,8 +12,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "LifeAsItIs",
-  description: "A blog about life, experiences, and insights.",
+  title: "AyDev Portfolio",
+  description: "Dada Ayokunle Samuel.",
 };
 
 export default function RootLayout({ children }) {
