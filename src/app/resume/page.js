@@ -10,7 +10,7 @@ export default function resume() {
                 {/* resume and education div */}
                 <div className="w-full md:w-1/2 p-6 md:p-8 my-8 md:my-16 md:border-r border-gray-200 dark:border-gray-700">
                     <h1 className="text-3xl font-bold text-gray-900 dark:text-white my-8">Resume</h1>
-                    <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-8">I'm Dada Ayokunle Samuel, a passionate fullstack developer and tech tutor dedicated to building functional, accessible, and visually appealing web applications. Beyond development, I enjoy breaking down complex concepts and guiding others in turning ideas into real-world digital solutions using modern web technologies.</p>
+                    <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-8">I&apos;m Dada Ayokunle Samuel, a passionate fullstack developer and tech tutor dedicated to building functional, accessible, and visually appealing web applications. Beyond development, I enjoy breaking down complex concepts and guiding others in turning ideas into real-world digital solutions using modern web technologies.</p>
 
                     <div>
                         <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4 mt-8">Education</h2>

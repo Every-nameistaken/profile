@@ -18,7 +18,7 @@ export default function Home() {
             {/* Text Content */}
             <div>
               <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
-                Hi, I'm <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Dada Ayokunle Samuel</span>
+                Hi, I&apos;m <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Dada Ayokunle Samuel</span>
               </h1>
               <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
                 A passionate fullstack developer with a love for crafting functional, accessible, and visually appealing web applications. I enjoy turning ideas into real-world digital experiences using modern web technologies.
@@ -96,7 +96,7 @@ export default function Home() {
       {/* Call to Action */}
       <div className="max-w-6xl mx-auto px-4 py-20 text-center">
         <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Ready to work together?</h2>
-        <p className="text-lg text-gray-700 dark:text-gray-300 mb-8">Let's build something amazing together</p>
+        <p className="text-lg text-gray-700 dark:text-gray-300 mb-8">Let&apos;s build something amazing together</p>
         <Link href="/contact" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition inline-block">
           Contact Me</Link>
       </div>
